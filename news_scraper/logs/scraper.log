@@ -1,0 +1,68 @@
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:99 | DDG search | query='AI safety' | max=10
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:148 | DDG search complete | query='AI safety' | found=2 | elapsed=0ms
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:99 | DDG search | query='test' | max=10
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:148 | DDG search complete | query='test' | found=1 | elapsed=0ms
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:99 | DDG search | query='test' | max=50
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [33mWARNING [0m | duckduckgo_search:133 | DDG search error: rate limited
+2026-06-20 23:18:45 | news_scraper.extractor.content | [33mWARNING [0m | content_extractor:95 | Could not extract body content
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:93 | Fetching top headlines | params={'language': 'en', 'pageSize': 20, 'page': 1, 'q': 'test'}
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'top-headlines' | returned=1 / total=1 | 0ms
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:159 | Searching NewsAPI | query='machine learning' | params={'q': 'machine learning', 'language': 'en', 'sortBy': 'publishedAt', 'pageSize': 20, 'page': 1}
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'everything' | returned=1 / total=1 | 0ms
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:159 | Searching NewsAPI | query='test' | params={'q': 'test', 'language': 'en', 'sortBy': 'publishedAt', 'pageSize': 20, 'page': 1}
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [31mERROR   [0m | news_fetcher:173 | NewsAPI error: [500] Internal server error
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:93 | Fetching top headlines | params={'language': 'en', 'pageSize': 20, 'page': 1}
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'top-headlines' | returned=2 / total=2 | 0ms
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:159 | Searching NewsAPI | query='test' | params={'q': 'test', 'language': 'en', 'sortBy': 'publishedAt', 'pageSize': 20, 'page': 1, 'from': '2024-01-01T00:00:00+00:00', 'to': '2024-01-31T00:00:00+00:00'}
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'everything' | returned=0 / total=0 | 0ms
+2026-06-20 23:18:46 | news_scraper.crawler.dedup | [32mINFO    [0m | duplicate_checker:90 | Loaded 1 seen hashes from C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-0\test_persist_and_load0\seen.json
+2026-06-20 23:18:46 | news_scraper.crawler.collector | [32mINFO    [0m | url_collector:77 | add_many | accepted=2
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:18:46 | news_scraper.storage.csv | [32mINFO    [0m | csv_writer:108 | Exported 1 rows to CSV | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-0\test_successful_run0\exports\articles_20260620_231846.csv
+2026-06-20 23:18:46 | news_scraper.storage.json | [32mINFO    [0m | json_writer:103 | Exported 1 articles to JSONL | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-0\test_successful_run0\exports\articles_20260620_231846.jsonl
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=1 | failed=0 | saved=1 | 0.0s
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=0 | failed=1 | saved=0 | 0.0s
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:211 | Rejected article (insufficient content): https://example.com/short
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=0 | failed=1 | saved=0 | 0.0s
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=0 | workers=2 | query=None
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=0 | failed=0 | saved=0 | 0.0s
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:18:46 | news_scraper.storage.csv | [32mINFO    [0m | csv_writer:108 | Exported 1 rows to CSV | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-0\test_on_article_callback_calle0\exports\articles_20260620_231846.csv
+2026-06-20 23:18:46 | news_scraper.storage.json | [32mINFO    [0m | json_writer:103 | Exported 1 articles to JSONL | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-0\test_on_article_callback_calle0\exports\articles_20260620_231846.jsonl
+2026-06-20 23:18:46 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=1 | failed=0 | saved=1 | 0.0s
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:99 | DDG search | query='AI safety' | max=10
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:148 | DDG search complete | query='AI safety' | found=2 | elapsed=0ms
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:99 | DDG search | query='test' | max=10
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:148 | DDG search complete | query='test' | found=1 | elapsed=0ms
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [32mINFO    [0m | duckduckgo_search:99 | DDG search | query='test' | max=50
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [33mWARNING [0m | duckduckgo_search:133 | DDG search error: rate limited
+2026-06-20 23:20:21 | news_scraper.extractor.content | [33mWARNING [0m | content_extractor:95 | Could not extract body content
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:93 | Fetching top headlines | params={'language': 'en', 'pageSize': 20, 'page': 1, 'q': 'test'}
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'top-headlines' | returned=1 / total=1 | 0ms
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:159 | Searching NewsAPI | query='machine learning' | params={'q': 'machine learning', 'language': 'en', 'sortBy': 'publishedAt', 'pageSize': 20, 'page': 1}
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'everything' | returned=1 / total=1 | 0ms
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:159 | Searching NewsAPI | query='test' | params={'q': 'test', 'language': 'en', 'sortBy': 'publishedAt', 'pageSize': 20, 'page': 1}
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [31mERROR   [0m | news_fetcher:173 | NewsAPI error: [500] Internal server error
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:93 | Fetching top headlines | params={'language': 'en', 'pageSize': 20, 'page': 1}
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'top-headlines' | returned=2 / total=2 | 0ms
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:159 | Searching NewsAPI | query='test' | params={'q': 'test', 'language': 'en', 'sortBy': 'publishedAt', 'pageSize': 20, 'page': 1, 'from': '2024-01-01T00:00:00+00:00', 'to': '2024-01-31T00:00:00+00:00'}
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [32mINFO    [0m | news_fetcher:198 | NewsAPI 'everything' | returned=0 / total=0 | 0ms
+2026-06-20 23:20:21 | news_scraper.crawler.dedup | [32mINFO    [0m | duplicate_checker:90 | Loaded 1 seen hashes from C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-1\test_persist_and_load0\seen.json
+2026-06-20 23:20:21 | news_scraper.crawler.collector | [32mINFO    [0m | url_collector:77 | add_many | accepted=2
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:20:21 | news_scraper.storage.csv | [32mINFO    [0m | csv_writer:108 | Exported 1 rows to CSV | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-1\test_successful_run0\exports\articles_20260620_232021.csv
+2026-06-20 23:20:21 | news_scraper.storage.json | [32mINFO    [0m | json_writer:103 | Exported 1 articles to JSONL | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-1\test_successful_run0\exports\articles_20260620_232021.jsonl
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=1 | failed=0 | saved=1 | 0.0s
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=0 | failed=1 | saved=0 | 0.0s
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:211 | Rejected article (insufficient content): https://example.com/short
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=0 | failed=1 | saved=0 | 0.0s
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=0 | workers=2 | query=None
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=0 | failed=0 | saved=0 | 0.0s
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:110 | Pipeline starting | urls=1 | workers=2 | query=None
+2026-06-20 23:20:21 | news_scraper.storage.csv | [32mINFO    [0m | csv_writer:108 | Exported 1 rows to CSV | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-1\test_on_article_callback_calle0\exports\articles_20260620_232021.csv
+2026-06-20 23:20:21 | news_scraper.storage.json | [32mINFO    [0m | json_writer:103 | Exported 1 articles to JSONL | C:\Users\vinuj\AppData\Local\Temp\pytest-of-vinuj\pytest-1\test_on_article_callback_calle0\exports\articles_20260620_232021.jsonl
+2026-06-20 23:20:21 | news_scraper.pipeline.scraper | [32mINFO    [0m | scraping_pipeline:168 | Pipeline complete | ok=1 | failed=0 | saved=1 | 0.0s

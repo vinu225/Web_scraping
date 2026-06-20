@@ -1,0 +1,6 @@
+2026-06-20 23:18:45 | news_scraper.duckduckgo | [33mWARNING [0m | duckduckgo_search:133 | DDG search error: rate limited
+2026-06-20 23:18:45 | news_scraper.extractor.content | [33mWARNING [0m | content_extractor:95 | Could not extract body content
+2026-06-20 23:18:45 | news_scraper.newsapi.fetcher | [31mERROR   [0m | news_fetcher:173 | NewsAPI error: [500] Internal server error
+2026-06-20 23:20:20 | news_scraper.duckduckgo | [33mWARNING [0m | duckduckgo_search:133 | DDG search error: rate limited
+2026-06-20 23:20:21 | news_scraper.extractor.content | [33mWARNING [0m | content_extractor:95 | Could not extract body content
+2026-06-20 23:20:21 | news_scraper.newsapi.fetcher | [31mERROR   [0m | news_fetcher:173 | NewsAPI error: [500] Internal server error
