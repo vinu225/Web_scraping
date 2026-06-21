@@ -1,0 +1,85 @@
+# ============================================================
+# News Scraper — .gitignore
+# ============================================================
+
+# ----------------------------
+# Secrets & Environment Config
+# ----------------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------------
+# Walkthrough (local docs only)
+# ----------------------------
+Walkthrough/
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ----------------------------
+# Virtual Environments
+# ----------------------------
+venv/
+.venv/
+env/
+ENV/
+venv\Scripts\activate
+
+# ----------------------------
+# Testing & Coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ----------------------------
+# Data directories (scraped content)
+# ----------------------------
+data/raw/*
+data/cleaned/*
+data/failed/*
+data/exports/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/failed/.gitkeep
+!data/exports/.gitkeep
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/*.log
+logs/*.log.*
+!logs/.gitkeep
+
+# ----------------------------
+# IDE & Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Build / Distribution
+# ----------------------------
+dist/
+build/
+*.egg-info/
+*.egg
