@@ -1,0 +1,9 @@
+{
+  "article_id": "test-neutral-001",
+  "title": "City Council Approves Annual Budget",
+  "bias_score_max": 0.40,
+  "subjectivity_score_max": 0.20,
+  "emotional_intensity_max": 0.15,
+  "classification_expected": ["Low Bias", "Moderate Bias"],
+  "_comment": "Exact scores depend on model checkpoint. These are maximum noise thresholds validated against feature-engineering alone in integration tests."
+}

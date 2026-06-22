@@ -1,0 +1,10 @@
+{
+  "article_id": "test-biased-001",
+  "title": "SHOCKING: Politicians DESTROY Economy in Worst Betrayal Ever",
+  "bias_score_min": 0.60,
+  "bias_score_max": 1.00,
+  "subjectivity_score_min": 0.50,
+  "emotional_intensity_min": 0.40,
+  "classification_expected": ["High Bias", "Extreme Bias"],
+  "_comment": "Exact scores depend on model checkpoint. These are minimum signal thresholds validated against feature-engineering alone (no model required) in integration tests."
+}

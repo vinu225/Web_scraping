@@ -1,0 +1,20 @@
+{
+  "article_id": "sha256-abc123def456",
+  "title": "Transit Authority Announces New Bus Routes",
+  "url": "https://metro-times.com/transit/new-bus-routes-2026",
+  "source": "metro-times.com",
+  "author": "Carlos Rivera",
+  "published_at": "2026-06-15T09:00:00",
+  "content": "The Metropolitan Transit Authority announced on Friday that six new bus routes will begin service in August, expanding coverage to three underserved neighborhoods on the city's east side. The expansion follows a ridership study conducted earlier this year and is funded through a federal infrastructure grant. Routes will operate seven days a week with buses running every fifteen minutes during peak hours.",
+  "images": [
+    {
+      "url": "https://metro-times.com/images/bus-route-map.jpg",
+      "width": 800,
+      "height": 600,
+      "alt_text": "Map showing new bus route coverage",
+      "source": "og"
+    }
+  ],
+  "language": "en",
+  "scraped_at": "2026-06-15T10:30:00"
+}

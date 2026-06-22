@@ -1,0 +1,15 @@
+# Module 2 (bias analysis) FastAPI service.
+# Module 1 scraper has been removed; articles are loaded directly via
+# article_loader.py using the shared/schemas.py Article contract.
+version: "3.9"
+
+services:
+  bias_analysis:
+    build:
+      context: .
+      dockerfile: module_2_bias_analysis/Dockerfile
+    container_name: fnd_bias_analysis
+    ports:
+      - "8002:8000"
+    env_file:
+      - module_2_bias_analysis/.env
